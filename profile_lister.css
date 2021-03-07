@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    flex-grow: auto;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: auto;
+    background-color: black;
+}
+
+.flex-item {
+    background-color: white;
+    margin: 10px;
+    height: 100px;
+    width: 50%;
+    box-shadow: 10px 10px 10px 5px black;
+    border-radius: 4px;
+}
