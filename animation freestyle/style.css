@@ -1,3 +1,7 @@
+:root {
+    --animate-duration: 5s;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
