@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    height: 70%;
+    background: linear-gradient(30deg, rgba(20, 19, 19, 0.89), rgba(20, 20, 20, 0.747));
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 1;
+}
+
+.box1,
+.box2,
+.box3 {
+    background: whitesmoke;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+}
+
+@media (max-width:943px) {
+    .container {
+        height: 100vh;
+        width: 100%;
+        overflow: scroll;
+    }
+}
