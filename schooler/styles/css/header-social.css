@@ -1,0 +1,41 @@
+/* social space */
+
+.header-social-container {
+    display: flex;
+    width: 100%;
+    background-color: var(--something-blue);
+    height: 40px;
+    justify-content: flex-end;
+}
+
+.header-social-container .fa-twitter,
+.header-social-container .fa-instagram,
+.header-social-container .fa-facebook,
+.header-social-container .fa-whatsapp {
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+    background: var(--black);
+    color: var(--white);
+}
+
+.header-social-container span {
+    position: absolute;
+    left: 70%;
+    color: var(--white);
+    font-size: 15px;
+}
+
+.header-social-container span a {
+    color: var(--white);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.header-social-container span .fa {
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+    background: var(--black);
+    color: var(--white);
+}

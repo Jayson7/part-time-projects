@@ -1,0 +1,23 @@
+.main-container {
+    width: 100%;
+    background: var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-container ul li a {
+    text-decoration: none;
+    padding: 30px;
+    color: var(--white);
+}

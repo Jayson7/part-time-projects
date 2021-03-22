@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation v2</title>
+</head>
+<style>
+    div {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+    }
+</style>
+
+<body>
+    <div></div>
+</body>
+<script src="anime.2.2.0.js"></script>
+<script>
+    let animation = anime({
+        targets: 'div',
+        // Properties 
+        translate: 300,
+
+        borderRadius: 50,
+        // Property Parameters
+        duration: 2000,
+        easing: 'linear',
+        // Animation Parameters
+        direction: 'alternate'
+    });
+</script>
+
+</html>

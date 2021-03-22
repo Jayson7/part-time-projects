@@ -34,6 +34,24 @@
         <img src="f.png" alt="" srcset="">
         <div class="content">
             <h1>Landing page version one</h1>
+            <h4>
+                <span class="letter">L</span>
+                <span class="letter">A</span>
+                <span class="letter">N</span>
+                <span class="letter">D</span>
+                <span class="letter">I</span>
+                <span class="letter">N</span>
+                <span class="letter">G</span>
+                <div></div>
+                <span class="letter">I</span>
+                <span class="letter">S</span>
+                <div></div>
+                <span class="letter">C</span>
+                <span class="letter">O</span>
+                <span class="letter">O</span>
+                <span class="letter">L</span>
+                <span class="letter">!</span>
+            </h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum, vitae debitis rerum earum eaque quisquam doloribus enim deserunt suscipit fuga natus alias excepturi vel a pariatur illo soluta ipsum. Id, cum. Temporibus explicabo molestias
                 debitis fugit soluta esse veniam quia non, illo tempora quod qui eum voluptas. Mollitia, ratione?</p>
         </div>
@@ -43,5 +61,39 @@
 
 </body>
 <script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+<script>
+    let animation = anime({
+        targets: '.letter',
+        opacity: 1,
+        translateY: 50,
+        rotate: {
+            value: 360,
+            duration: 2000,
+            easing: 'easeInExpo'
+        },
+        scale: anime.stagger([0.7, 1], {
+            from: 'center'
+        }),
+        delay: anime.stagger(100, {
+            start: 1000
+        }),
+        translateX: [-10, 30]
+    });
+</script>
+<style>
+    .letter {
+        display: inline-flex;
+        opacity: 0;
+    }
+    
+    h4 div {
+        display: inline-flex;
+    }
+    
+    h4 {
+        margin-bottom: 60px;
+    }
+</style>
 
 </html>

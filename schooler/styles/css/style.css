@@ -1,0 +1,21 @@
+@import "header-social.css";
+@import "navbar.css";
+:root {
+    --black: #222831;
+    --little-black: #393E46;
+    --something-blue: #00ADB5;
+    --white: #eeeeee;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
