@@ -8,12 +8,18 @@
     justify-content: flex-end;
 }
 
+.header-social-container .li {
+    position: absolute;
+    left: 0;
+    color: var(--little-black);
+}
+
 .header-social-container .fa-twitter,
 .header-social-container .fa-instagram,
 .header-social-container .fa-facebook,
 .header-social-container .fa-whatsapp {
     border: 1px solid blue;
-    padding: 5px;
+    padding: 6px;
     margin: 5px;
     background: var(--black);
     color: var(--white);

@@ -18,4 +18,22 @@ header {
     margin: 0;
     padding: 0;
     display: grid;
+    z-index: 1;
+}
+
+.box1 {
+    text-align: center;
+    border: 0px solid #222831;
+    background: black;
+}
+
+.item h4,
+.item p {
+    color: #eeeeee;
+}
+
+.section2 {
+    height: 100vh;
+    width: 100%;
+    background: #393E46;
 }
