@@ -11,8 +11,14 @@ class register(CreateView):
     template_name = "registration/register.html"
     success_url = reverse_lazy("login")
 
+from django.utils import timezone
+
 
 class home(ListView):
     model = User
     template_name = "index.html"
+    
+def contact(request):
+
+    return render(request, "contact.html")
     

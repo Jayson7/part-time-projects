@@ -20,6 +20,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "profiler",
+    "tweeter",
     'bootstrap4',
     'crispy_forms',
     "mini",
