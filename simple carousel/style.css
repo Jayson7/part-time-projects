@@ -1,0 +1,88 @@
+.container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    overflow: hidden;
+    object-fit: cover;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container1,
+.container2,
+.container3 {
+    justify-self: center;
+    position: absolute;
+    align-self: center;
+}
+
+.container1 {
+    animation: container1 ease 2s infinite;
+}
+
+.container2 {
+    animation: container2 ease 2s infinite;
+}
+
+.container3 {
+    animation: container3 ease 2s infinite;
+}
+
+@keyframes container1 {
+    0% {
+        visibility: visible;
+    }
+    25% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    75% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes container2 {
+    0% {
+        visibility: hidden;
+    }
+    25% {
+        visibility: visible;
+    }
+    50% {
+        visibility: hidden;
+    }
+    75% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes container3 {
+    0% {
+        visibility: hidden;
+    }
+    25% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    75% {
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
