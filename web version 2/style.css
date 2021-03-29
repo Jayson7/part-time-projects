@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: black;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 17px;
+    font-family: Georgia;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-right: 100px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: beige;
+    font-size: 19px;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.logo span {
+    color: white;
+    font-size: 30px;
+    font-family: Impact;
+}
