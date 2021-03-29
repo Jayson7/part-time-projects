@@ -1,0 +1,245 @@
+.container-wrapper {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #222831, #222831);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+.img {
+    width: 600px;
+    height: 630px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-0%, -43%);
+    animation: animate 20s infinite ease;
+    margin-top: 12px;
+}
+
+.text-sec {
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 400px;
+    text-align: center;
+    transform: translate(-50, -50%);
+}
+
+.text-sec h1 {
+    font-size: 40px;
+    color: #c7865c;
+    text-transform: capitalize;
+}
+
+.text-sec p {
+    font-size: 17px;
+    color: white;
+    padding: 3px;
+    word-spacing: 2px;
+}
+
+@keyframes animate {
+    0%,
+    50% {
+        background: url('2.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50.1%,
+    100% {
+        background: url('3.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    top: -10px;
+    color: #c7865c;
+    padding: 0 10px 0;
+    animation: animate-logo ease 2s;
+    border-left: 2px dashed #222831;
+    border-right: 2px dashed #222831;
+    background: #222831;
+}
+
+@keyframes animate-logo {
+    from {
+        left: -1000px;
+    }
+    to {
+        left: 50px;
+    }
+}
+
+ul {
+    display: flex;
+}
+
+li a {
+    margin: 40px;
+    text-decoration: none;
+    color: #393e46;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.logo:hover {
+    color: #cb9a8b;
+}
+
+li a:hover {
+    color: #cb9a8b;
+    border-bottom: 5px solid #cb9a8b;
+    padding-bottom: 4px;
+    transition: 0.2s ease-in-out;
+}
+
+.text-sec span {
+    width: 200px;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-sec span i {
+    margin: 20px;
+    font-size: 25px;
+    color: #cb9a8b
+}
+
+li {
+    list-style-type: none;
+}
+
+.div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #c7865c;
+    background: #393e46;
+}
+
+.sec2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #222831;
+}
+
+.about {
+    position: absolute;
+    bottom: -60%;
+    left: 47%;
+    border-bottom: #cb9a8b 5px dashed;
+    color: white;
+}
+
+.sec3 {
+    width: 100%;
+    height: 100vh;
+    background: #393e46;
+}
+
+.text {
+    position: absolute;
+    bottom: -150%;
+    right: 0%;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+.text h3 {
+    color: #cb9a8b;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 1px dashed #c7865c;
+    margin-top: 60px;
+}
+
+.text p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.text button {
+    position: relative;
+    left: 40%;
+    background: #c7865c;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 9px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+
+.text-img {
+    position: absolute;
+    bottom: -150%;
+    left: 5%;
+    width: 400px;
+    height: 400px;
+    background: url("1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20%;
+}
+
+.sec3 p {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.sec3 h1 {
+    color: #cb9a8b;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.sec3 p,
+h1 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+.sec4 {
+    width: 100%;
+    height: 100vh;
+}
