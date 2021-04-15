@@ -29,13 +29,24 @@ form {
 
 button {
     padding: 5px;
+    outline: none;
     margin: 20px;
+}
+
+button:hover {
+    outline: none;
+    filter: blur(0.1px);
 }
 
 input {
     padding: 10px;
     outline: none;
     margin: 20px;
+}
+
+input:hover {
+    outline: none;
+    filter: blur(0.1px);
 }
 
 label {
