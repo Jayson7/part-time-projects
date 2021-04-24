@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webber</title>
+</head>
+
+<body>
+    <div class="topper">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+    </div>
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="#" class="logo">Webber</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Products</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">About Us</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Contact Us</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Blog</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <section class="section1">
+
+        <div class="section1-card">
+            <h1>We Create Masterpieces</h1>
+            <p>Lorem ipsum, dolor ipsa iure non est sit error exercitationem alias et facere, id rerum voluptas asperiores accusantium odit eos. Enim, eveniet sint?</p>
+        </div>
+
+    </section>
+
+    <!-- card carousel -->
+    <div class="divver">
+        <div class="slider owl-carousel">
+            <div class="card">
+                <div class="img">
+                    <img src="3.jpg" alt=""></div>
+                <div class="content">
+                    <div class="title">
+                        Briana Tozour</div>
+                    <div class="sub-title">
+                        Graphic Designer</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="4.jpg" alt=""></div>
+                <div class="content">
+                    <div class="title">
+                        Pricilla Preez</div>
+                    <div class="sub-title">
+                        Web Developer</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="5.jpg" alt=""></div>
+                <div class="content">
+                    <div class="title">
+                        Eliana Maia</div>
+                    <div class="sub-title">
+                        App Developer</div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+                    <div class="btn">
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="fot1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in deserunt suscipit ullam dolore unde ipsa, voluptatem veritatis sapiente. Molestias, eius at eligendi illo laudantium dolores quod recusandae tempore corporis doloribus, doloremque
+                    quis aspernatur quae dolor provident officia nostrum, dignissimos placeat ex eos? Rerum soluta cupiditate sunt doloribus quibusdam autem aliquam harum alias iusto. Odit voluptatem praesentium ut ipsum quaerat, sapiente ea voluptatibus
+                    eligendi dicta debitis autem ullam ducimus eveniet nisi fugiat dolores magnam? Id sint dignissimos deserunt vitae in, nihil eaque aut iusto sed repellendus ullam iure. Non, laborum totam eveniet magni debitis impedit itaque repudiandae,
+                    dolores eligendi illo explicabo incidunt expedita accusamus voluptatum saepe nulla ex dolore tenetur! Vero voluptatibus rerum ex iusto. Culpa rem distinctio consequuntur fugit ab molestias excepturi praesentium pariatur reiciendis?
+                    Ipsum veniam tempore hic dicta quos, eveniet placeat, magni totam neque veritatis, dolorem similique sunt at odio? Modi pariatur in ipsum! Aliquam, perferendis adipisci.</p>
+            </div>
+
+            <div class="fot2 ">
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script>
+        $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+        });
+    </script>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+<script>
+    let mainNav = document.getElementById('js-menu');
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+
+    navBarToggle.addEventListener('click', function() {
+        mainNav.classList.toggle('active');
+    });
+</script>
+
+</html>
