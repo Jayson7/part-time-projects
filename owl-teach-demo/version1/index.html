@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Owl_version1 </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.css" integrity="sha512-riTSV+/RKaiReucjeDW+Id3WlRLVZlTKAJJOHejihLiYHdGaHV7lxWaCfAvUR0ErLYvxTePZpuKZbrTbwpyG9w==" crossorigin="anonymous" />
+</head>
+
+<header>
+    <div class="topper">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <i class="fa fa-skype" aria-hidden="true"></i>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </div>
+    </div>
+    <!-- <span> <i class="fa fa-bars" aria-hidden="true"></i> </span> -->
+    <nav>
+        <li>
+            <a href="#"> <i class="fa fa-home" aria-hidden="true"></i> HOME </a>
+        </li>
+        <li>
+            <a href="#"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> ORDER </a>
+        </li>
+        <li>
+            <a href="#"> <i class="fa fa-cc-paypal" aria-hidden="true"></i> CHECKOUT </a>
+        </li>
+
+        <li>
+            <a href="#"> <i class="fa fa-phone-square" aria-hidden="true"></i> </i> CONTACT </a>
+        </li>
+    </nav>
+
+
+</header>
+
+
+<body>
+
+    <section class="sec1">
+
+        <div class="carousel">
+            <div class="owl-carousel owl-theme">
+                <div class="item itema item1">
+
+                </div>
+                <div class="item item2 itema"></div>
+
+                <div class="item item3 itema">
+
+                </div>
+                <div class="item item4 itema">
+
+                </div>
+                <div class="item item5 itema">
+
+                </div>
+                <div class="item item6 itema">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <div class="sec2">
+        <div class="intro ">
+            <div class="one ">
+                <div class="one-word">
+                    <h1>We are concerned about your look</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptates! </p>
+                    <button>Shop</button>
+                </div>
+            </div>
+            <div class="two  ">
+                <div class="two-word">
+                    <h1>We are concerned about your look</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptates! </p>
+                    <button>Shop</button>
+                </div>
+            </div>
+            <div class="three ">
+                <div class="three-word">
+                    <h1>We are concerned about your look</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptates! </p>
+                    <button>Shop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+
+        autoplay: true,
+        rtl: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            200: {
+                items: 3
+
+            },
+        }
+    })
+</script>
+
+<script src="index.js"></script>
+
+</html>
